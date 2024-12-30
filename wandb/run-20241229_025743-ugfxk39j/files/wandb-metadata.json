@@ -1,0 +1,43 @@
+{
+  "os": "Linux-6.8.0-51-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.9.20",
+  "startedAt": "2024-12-29T07:57:43.161581Z",
+  "program": "/media/soham/70DE3B11DE3ACEDA/Soham's_windows/Soham/AAAI-25/aaai-25-visually-rich-document-vrd-iu-leaderboard/VRD-IU/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "git@github.com:soham-chitnis10/VRD-IU.git",
+    "commit": "ba2aea1804197d4d1e104e31a113091815cec177"
+  },
+  "email": "sohamchitnis10@gmail.com",
+  "root": "/media/soham/70DE3B11DE3ACEDA/Soham's_windows/Soham/AAAI-25/aaai-25-visually-rich-document-vrd-iu-leaderboard/VRD-IU",
+  "host": "soham-ubuntu",
+  "username": "soham",
+  "executable": "/home/soham/miniconda3/envs/dl_proj/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce MX330",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "78053675008",
+      "used": "41881198592"
+    }
+  },
+  "memory": {
+    "total": "8083587072"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce MX330",
+      "memoryTotal": "2147483648",
+      "cudaCores": 384,
+      "architecture": "Pascal"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

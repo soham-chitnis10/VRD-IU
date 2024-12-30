@@ -1,0 +1,58 @@
+  0%|          | 0/43326 [00:31<?, ?it/s]
+  0%|          | 0/50 [00:31<?, ?it/s]/s]
+Traceback (most recent call last):
+  File "/tmp/ipykernel_58446/2591610408.py", line 21, in <module>
+    train_loss = train(model,train_dataloader,focal_loss,optimizer,image_processor,tokenizer,device)
+  File "/tmp/ipykernel_58446/940447681.py", line 9, in train
+    pred = model(image_inputs,text_inputs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+  File "/tmp/ipykernel_58446/253816867.py", line 58, in forward
+    embed = self.encoder(image_inputs, text_inputs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/tmp/ipykernel_58446/253816867.py", line 46, in forward
+    visual_embedding = self.visual_encoder(**image_inputs).pooler_output
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 981, in forward
+    encoder_outputs = self.encoder(
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 806, in forward
+    layer_outputs = layer_module(
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 725, in forward
+    layer_outputs = layer_module(
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 679, in forward
+    layer_output = hidden_states + self.output(layer_output)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/transformers/models/donut/modeling_donut_swin.py", line 554, in forward
+    hidden_states = self.dense(hidden_states)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/soham/miniconda3/envs/dl_proj/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

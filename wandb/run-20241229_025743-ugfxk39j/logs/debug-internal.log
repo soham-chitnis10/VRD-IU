@@ -1,0 +1,8 @@
+{"time":"2024-12-29T02:57:43.164287999-05:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-29T02:57:43.16438725-05:00","level":"INFO","msg":"created symlink","path":"/media/soham/70DE3B11DE3ACEDA/Soham's_windows/Soham/AAAI-25/aaai-25-visually-rich-document-vrd-iu-leaderboard/VRD-IU/wandb/run-20241229_025743-ugfxk39j/logs/debug-core.log"}
+{"time":"2024-12-29T02:57:43.271520491-05:00","level":"INFO","msg":"created new stream","id":"ugfxk39j"}
+{"time":"2024-12-29T02:57:43.271554532-05:00","level":"INFO","msg":"stream: started","id":"ugfxk39j"}
+{"time":"2024-12-29T02:57:43.271597124-05:00","level":"INFO","msg":"handler: started","stream_id":"ugfxk39j"}
+{"time":"2024-12-29T02:57:43.271901706-05:00","level":"INFO","msg":"sender: started","stream_id":"ugfxk39j"}
+{"time":"2024-12-29T02:57:43.271901703-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"ugfxk39j"}
+{"time":"2024-12-29T02:57:43.652078165-05:00","level":"INFO","msg":"Starting system monitor"}

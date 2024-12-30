@@ -1,0 +1,17 @@
+{"time":"2024-12-29T19:50:50.206528942-05:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2024-12-29T19:50:50.206599561-05:00","level":"INFO","msg":"created symlink","path":"/media/soham/70DE3B11DE3ACEDA/Soham's_windows/Soham/AAAI-25/aaai-25-visually-rich-document-vrd-iu-leaderboard/VRD-IU/wandb/run-20241229_195050-5i29b8oz/logs/debug-core.log"}
+{"time":"2024-12-29T19:50:50.312587196-05:00","level":"INFO","msg":"created new stream","id":"5i29b8oz"}
+{"time":"2024-12-29T19:50:50.3126081-05:00","level":"INFO","msg":"stream: started","id":"5i29b8oz"}
+{"time":"2024-12-29T19:50:50.312722233-05:00","level":"INFO","msg":"handler: started","stream_id":"5i29b8oz"}
+{"time":"2024-12-29T19:50:50.313105251-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"5i29b8oz"}
+{"time":"2024-12-29T19:50:50.313110404-05:00","level":"INFO","msg":"sender: started","stream_id":"5i29b8oz"}
+{"time":"2024-12-29T19:50:50.598156095-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-29T19:51:32.357866765-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-29T19:51:32.363185793-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-29T19:51:32.712333765-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-29T19:51:32.83800353-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-29T19:51:33.858062108-05:00","level":"INFO","msg":"stream: closing","id":"5i29b8oz"}
+{"time":"2024-12-29T19:51:33.858094306-05:00","level":"INFO","msg":"handler: closed","stream_id":"5i29b8oz"}
+{"time":"2024-12-29T19:51:33.858123249-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5i29b8oz"}
+{"time":"2024-12-29T19:51:33.858139574-05:00","level":"INFO","msg":"sender: closed","stream_id":"5i29b8oz"}
+{"time":"2024-12-29T19:51:33.858217224-05:00","level":"INFO","msg":"stream: closed","id":"5i29b8oz"}
